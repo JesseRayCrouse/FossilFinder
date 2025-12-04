@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Fossil Finder +</title>
+  </head>
+  <body>
+    <p class="map-instructions">Welcome to the Dig Site! Find those Fossils!</p>
+
+    <div class="map-container-fossil">
+      <img src="sourceimages/mapBase.png" class="map-image2" />
+      <a href="#" class="fossil fossil10" data-fossil="sigil"></a>
+      <a href="#" class="fossil fossil11" data-fossil="lepid"></a>
+      <a href="#" class="fossil fossil12" data-fossil="cook"></a>
+      <canvas id="scratchCanvas"></canvas>
+    </div>
+    <a href="map.html" class="returnbutton2" tabindex="1">Return To Map</a>
+    <div class="mode-buttons">
+      <button id="scratchModeBtn" tabindex="2">
+        <img src="sourceimages/591419.png" />
+      </button>
+      <button id="selectModeBtn" tabindex="3">
+        <img src="sourceimages/cursor.png" />
+      </button>
+    </div>
+    <div id="fossilPopup" class="popup-overlay">
+      <div class="popup-box">
+        <p id="popupText">You found a fossil!</p>
+        <p class="smalldesc">go to the fossilpedia to learn more!</p>
+        <button id="goToFossilpedia">Go To FossilPedia</button>
+        <button id="continueDigging">Continue Digging</button>
+      </div>
+    </div>
+    <script src="scratch.js"></script>
+  </body>
+</html>
