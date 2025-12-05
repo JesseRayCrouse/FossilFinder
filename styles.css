@@ -38,9 +38,9 @@
 
     .map-image {
         margin-top: 4rem;
-        width: 75%;
+        width: 65%;
         height: auto;
-        display: block;
+        display: absolute;
     }
 
     .map-image2 {
@@ -53,7 +53,7 @@
     .digsite {
         position: absolute;
         transform: translate(-50%, -50%);
-        width: clamp(6rem, 10vw, 12rem);
+        width: clamp(10rem, 10vw, 12rem);
         height: 2.5rem;
         display: flex;
         align-items: center;
@@ -75,11 +75,11 @@
         transform: translate(-50%, -50%) scale(1.1);
     }
 
-    #digsite1 { top: 30%; left: 30%; color: #e63933; -webkit-text-stroke: 1px white;}
-    #digsite2 { top: 70%; left: 32%; color: #e6aa33; -webkit-text-stroke: 1px white;}
+    #digsite1 { top: 30%; left: 34%; color: #e63933; -webkit-text-stroke: 1px white;}
+    #digsite2 { top: 70%; left: 35%; color: #e6aa33; -webkit-text-stroke: 1px white;}
     #digsite3 { top: 50%; left: 50%; color: #3378e6; -webkit-text-stroke: 1px white;}
-    #digsite4 { top: 35%; left: 70%; color: #33e63f; -webkit-text-stroke: 1px white;}
-    #digsite5 { top: 70%; left: 70%; color: #8d33e6; -webkit-text-stroke: 1px white;}
+    #digsite4 { top: 35%; left: 65%; color: #33e63f; -webkit-text-stroke: 1px white;}
+    #digsite5 { top: 70%; left: 65%; color: #8d33e6; -webkit-text-stroke: 1px white;}
 
 /* Bottom centered button group */
 .map-buttons {
@@ -178,7 +178,7 @@
         font-family: 'dinosaur';
         background-color: rgba(0,0,0,0.6);
         padding: 1rem 2rem;
-        font-size: clamp(2rem, 2vw, 2rem);
+        font-size: clamp(1.5rem, 2vw, 2rem);
         width: 70%;
         text-align: center;
         border-radius: 10px;
@@ -979,7 +979,7 @@
     }
 
     .digsite {
-        margin-top: 8%;
+        margin-top: 6%;
         width: 6rem;
         height: 2rem;
         font-size: 1rem;
@@ -1147,6 +1147,7 @@
         flex-wrap: wrap; 
     }
 
+    
     .map-buttons, .map-buttons2 { 
         top: auto;
         gap: clamp(0.5rem, 3vw, 1rem);
@@ -1174,6 +1175,12 @@
     #scratchModeBtn img, #selectModeBtn img {
         width: 40px;
         height: 40px;
+    }
+
+    .map-image {
+        display: absolute;
+        width: 80%;
+        margin-top: 4rem;
     }
 
     /* .fossil-title {
