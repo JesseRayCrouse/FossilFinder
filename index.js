@@ -118,7 +118,7 @@ const fossilInfo = {
   Ammonite: {
     description:
       "Coiled marine mollusks related to squids and octopuses, extremely common as fossils.",
-    lived: "Devonian–Cretaceous (400–66 million years ago)",
+    lived: "Devonian–Cretaceous (400–66 M.Y.A)",
     diet: "Small marine animals",
     location: "Worldwide in ancient seabeds",
     image: "sourceimages/ammonitefossilhover.png",
@@ -127,7 +127,7 @@ const fossilInfo = {
   Cooksonia: {
     description:
       "One of the earliest known land plants, marking the transition of life from water to land.",
-    lived: "Silurian (425 million years ago)",
+    lived: "Silurian (425 M.Y.A)",
     diet: "Photosynthetic",
     location: "Wales, Czech Republic",
     image: "sourceimages/cooksoniahover.png",
