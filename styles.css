@@ -423,12 +423,12 @@
     }
     
     .info-container {
-        display: flex;
-        flex-direction: column;
+        position: absolute;
+        top: 55%;
+        left: 78%;
+        transform: translate(-50%, -50%);
         width: 70vw;
         height: 70vh;
-        margin-top: -42.5%;
-        margin-left: 42.5%;
         padding: 1rem;
         background-image: url("sourceimages/mapBase.png");
         background-size: contain;
@@ -669,7 +669,7 @@
     max-width: 200px;
     width: 40%;
     margin: 1rem auto;
-    margin-top: -11rem;
+    margin-top: -8rem;
     margin-left: 25rem;
     display: block;
 }
@@ -680,6 +680,7 @@
     -webkit-text-stroke: .5px white;
     margin: 1rem 0;
     margin-left: 7.5rem;
+    margin-top: 3rem;
     line-height: 1.0;
 }
 
@@ -718,7 +719,7 @@
 .fossilbutton1, .fossilbutton2, .fossilbutton3, .fossilbutton4, .fossilbutton5, .fossilbutton6, .fossilbutton7, .fossilbutton8, .fossilbutton9, .fossilbutton10,
 .fossilbutton11, .fossilbutton12, .fossilbutton13, .fossilbutton14, .fossilbutton15{
     background-color: #fbde3b;
-    width: 30rem;
+    width: 28rem;
     max-height: 7.5rem;
     margin-left: 0rem;
     border: 3px solid #c78d30;
@@ -910,8 +911,8 @@
 
 .info-container {
     width: 65%;
-    margin-top: -60rem;
-    margin-left: 15%;
+    top: 50%;
+    left: 50%;
 }
 
 .pedia-returnbutton {
