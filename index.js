@@ -120,7 +120,7 @@ const fossilInfo = {
       "Coiled marine mollusks related to squids and octopuses, extremely common as fossils.",
     lived: "Devonian–Cretaceous (400–66 M.Y.A)",
     diet: "Small marine animals",
-    location: "Worldwide in ancient seabeds",
+    location: "Ancient Seabeds",
     image: "sourceimages/ammonitefossilhover.png",
   },
 
